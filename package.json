@@ -15,6 +15,7 @@
     "@govflanders/vl-ui-dynamic-drawer": "^3.10.5",
     "@govflanders/vl-ui-equal-height": "^3.10.5",
     "@govflanders/vl-ui-icon": "^3.10.5",
+    "@govflanders/vl-ui-icon-list": "^3.10.5",
     "@govflanders/vl-ui-infoblock": "^3.10.5",
     "@govflanders/vl-ui-introduction": "^3.10.5",
     "@govflanders/vl-ui-link": "^3.10.5",
@@ -31,7 +32,8 @@
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "vue": "^2.6.10",
-    "vue-router": "^3.1.3"
+    "vue-router": "^3.1.3",
+    "vue-scrollto": "^2.17.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
