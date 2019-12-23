@@ -18,7 +18,7 @@
             </div>
         </header>
 
-        <!-- Introdcution section -->
+        <!-- Introduction section -->
         <vl-region>
             <vl-layout>
                 <vl-grid>
@@ -26,9 +26,12 @@
                         <vl-introduction>
                             In de digitale samenleving wordt van de overheid verwacht dat ze overheidsdata ontsluit
                             volgens een breed gedragen methode.
-                            Data.Vlaanderen.be is het domein waarop het Agentschap Informatie Vlaanderen data ontsluit
+                            Data.Vlaanderen.be is het domein waarop het <a
+                                href="http://www.vlaanderen.be/informatievlaanderen">Agentschap Informatie
+                            Vlaanderen</a> data ontsluit
                             volgens de principes beschreven in
-                            de Vlaamse URI standaard. Naast enkele datasets biedt Data.Vlaanderen.be ook toegang tot de
+                            de <a href="https://data.vlaanderen.be/cms/VlaamseURI-StandaardVoorData_V1.0.pdf">Vlaamse
+                            URI standaard</a>. Naast enkele datasets biedt Data.Vlaanderen.be ook toegang tot de
                             standaarden, informatiemodellen,
                             tools en documentatie die gebruikers in staat stellen aan de slag te gaan met data.
                         </vl-introduction>
@@ -37,11 +40,14 @@
                     <vl-column width="3">
                         <vl-side-navigation title="Inhoud">
                             <vl-side-navigation-list>
-                                <vl-side-navigation-item v-scroll-to="'#over'" href="#over" text="Over data.vlaanderen.be"/>
-                                <vl-side-navigation-item v-scroll-to="'#standaarden'" href="#standaarden" text="Standaarden"/>
+                                <vl-side-navigation-item v-scroll-to="'#over'" href="#over"
+                                                         text="Over data.vlaanderen.be"/>
+                                <vl-side-navigation-item v-scroll-to="'#standaarden'" href="#standaarden"
+                                                         text="Standaarden"/>
                                 <vl-side-navigation-item v-scroll-to="'#datasets'" href="#datasets" text="Datasets"/>
                                 <vl-side-navigation-item v-scroll-to="'#tools'" href="#tools" text="Tools"/>
-                                <vl-side-navigation-item v-scroll-to="'#vragen'" href="#vragen" text="Veelgestelde vragen"/>
+                                <vl-side-navigation-item v-scroll-to="'#vragen'" href="#vragen"
+                                                         text="Veelgestelde vragen"/>
                             </vl-side-navigation-list>
                         </vl-side-navigation>
                     </vl-column>
@@ -89,7 +95,7 @@
                                         gegevensuitwisseling.
                                         Op 31 maart 2017 werden een aantal vocabularia en applicatieprofielen als
                                         kandidaat-standaard gepubliceerd door
-                                        de werkgroep OSLO² van Informatie Vlaanderen. Vanaf deze datum startte een 6
+                                        de werkgroep OSLO van Informatie Vlaanderen. Vanaf deze datum startte een 6
                                         maanden
                                         durende evaluatieperiode
                                         van deze kandidaat-standaarden. Na deze evaluatieperiode, waarbij aan de hand
@@ -97,8 +103,9 @@
                                         referentie implementaties de
                                         robuustheid en de volledigheid van de vocabularia en de applicatieprofielen
                                         worden
-                                        getest, worden de OSLO²
-                                        specificaties gepromoot tot volwaardige standaarden.
+                                        getest, worden de OSLO
+                                        specificaties gepromoot tot volwaardige standaarden.<br><br>
+                                        Om feedback te geven, raden we aan om een topic aan te maken in onze <a href="https://github.com/Informatievlaanderen/OSLO-Public-Discussion">publieke reviewdiscussielijst</a>.
                                     </p>
                                 </vl-column>
                                 <vl-column width="4">
@@ -257,7 +264,8 @@
 
                             <vl-grid mod-stacked>
                                 <vl-column width="12">
-                                    <p class="text">Data.Vlaanderen.be voorziet de volgende toegangsmethoden tot de data:</p>
+                                    <p class="text">Data.Vlaanderen.be voorziet de volgende toegangsmethoden tot de
+                                        data:</p>
                                 </vl-column>
                                 <vl-column class="text" width="12">
                                     <vl-icon-list>
@@ -308,24 +316,30 @@
                                 <vl-column width="3">
                                     <vl-spotlight mod-no-border
                                                   title="Beta-release CRAB-LOD"
+                                                  href="https://overheid.vlaanderen.be/oslo-wat-is-oslo#5-sterren-linked-data-van-de-vlaamse-overheid"
+                                                  target="_blank"
                                                   subtitle=""
                                                   :image="{
                 src: 'https://source.unsplash.com/random/600x300',
                 alt: 'What a nice alt',
                 position: 'bottom-bottom'
               }">
-                                        <p class="text">Een eerste dataset die ontsloten wordt op dit domein zijn de adressen uit het
+                                        <p class="text">Een eerste dataset die ontsloten wordt op dit domein zijn de
+                                            adressen uit het
                                             adressenregister (CRAB). De beschikbare URI's van de CRAB-LOD dataset komen
                                             van een snapshot welke gedurende de BETA-periode op beperkte wijze
                                             gesynchroniseerd wordt gehouden met de gegevens uit het basisregister.
                                         </p>
-                                        <p class="text"><a target="_blank" href="https://data.vlaanderen.be/doc/adres/">Start
-                                            exploratie</a></p>
+
                                     </vl-spotlight>
+                                    <p class="text"><a target="_blank" href="https://data.vlaanderen.be/doc/adres/">Start
+                                        exploratie</a></p>
                                 </vl-column>
                                 <vl-column width="3">
                                     <vl-spotlight mod-no-border
                                                   title="LBLOD"
+                                                  target="_blank"
+                                                  href="https://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data"
                                                   subtitle=""
                                                   :image="{
                 src: 'https://source.unsplash.com/random/600x300',
@@ -338,14 +352,17 @@
                                             iedereen (andere overheden, ondernemingen, …) rechtstreeks met de data aan
                                             de slag kan gaan.
                                         </p>
-                                        <p class="text"><a target="_blank"
-                                              href="https://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data">Lees
-                                            meer</a></p>
+
                                     </vl-spotlight>
+                                    <p class="text"><a target="_blank"
+                                                       href="https://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data">Lees
+                                        meer</a></p>
                                 </vl-column>
                                 <vl-column width="3">
                                     <vl-spotlight mod-no-border
                                                   title="Organisatieregister"
+                                                  href="https://overheid.vlaanderen.be/wegwijs-vlaamse-overheid"
+                                                  target="_blank"
                                                   subtitle=""
                                                   :image="{
                 src: 'https://source.unsplash.com/random/600x300',
@@ -357,14 +374,17 @@
                                             organisaties. In een eerste fase wordt de basisinformatie van een
                                             organisatie ontsloten als LOD.
                                         </p>
-                                        <p class="text"><a target="_blank"
-                                              href="https://data.vlaanderen.be/doc/organisatie/">Start exploratie</a>
-                                        </p>
                                     </vl-spotlight>
+                                    <p class="text"><a target="_blank"
+                                                       href="https://data.vlaanderen.be/doc/organisatie/">Start
+                                        exploratie</a>
+                                    </p>
                                 </vl-column>
                                 <vl-column width="3">
                                     <vl-spotlight mod-no-border
                                                   title="Open Data licenties"
+                                                  href="https://overheid.vlaanderen.be/voorwaarden-voor-het-hergebruik-van-overheidsinformatie"
+                                                  target="_blank"
                                                   subtitle=""
                                                   :image="{
                 src: 'https://source.unsplash.com/random/600x300',
@@ -374,9 +394,10 @@
                                         <p class="text">
                                             De modellicenties van de Vlaamse Overheid voor Open Data
                                         </p>
-                                        <p class="text"><a target="_blank"
-                                              href="https://data.vlaanderen.be/doc/licentie/">Start exploratie</a></p>
                                     </vl-spotlight>
+                                    <p class="text"><a target="_blank"
+                                                       href="https://data.vlaanderen.be/doc/licentie/">Start
+                                        exploratie</a></p>
                                 </vl-column>
                             </vl-grid>
                         </vl-infoblock>
@@ -397,7 +418,8 @@
                                             target="_blank"
                                             subtitle=""
                                             mod-alt>
-                                        <p class="text">Deze tool werd ontwikkeld als onderdeel van het OSLO project en biedt
+                                        <p class="text">Deze tool werd ontwikkeld als onderdeel van het OSLO project en
+                                            biedt
                                             gerbuikers de mogelijkheid om
                                             hun data te valideren tegen de applicatieprofielen.
                                         </p>
@@ -412,7 +434,7 @@
                                             subtitle=""
                                             mod-alt>
                                         <p class="text">
-                                            Deze tool werd ontwikkeld als onderdeel van het OSLO² project en biedt
+                                            Deze tool werd ontwikkeld als onderdeel van het OSLO project en biedt
                                             gebruikers een geautomatiseerde manier om vocabularia te creëren op basis
                                             van een Enterprise Architect bestand.
                                         </p>
@@ -481,8 +503,11 @@
                                             die vanaf dat punt kunnen worden genomen met behulp van <a
                                                 href="https://martinfowler.com/articles/richardsonMaturityModel.html#level3">Hypermedia
                                             Controls</a>. Meer info over de bouwblokken vind je <a
-                                                href="https://github.com/Informatievlaanderen/generieke-hypermedia-api">hier</a>. Informatie over de implementatie
-                                            kan <a href="https://github.com/Informatievlaanderen/generic-hypermedia-api-client">hier</a> teruggevonden worden.
+                                                href="https://github.com/Informatievlaanderen/generieke-hypermedia-api">hier</a>.
+                                            Informatie over de implementatie
+                                            kan <a
+                                                href="https://github.com/Informatievlaanderen/generic-hypermedia-api-client">hier</a>
+                                            teruggevonden worden.
                                         </p>
                                     </vl-spotlight>
                                 </vl-column>
@@ -578,7 +603,6 @@
                                                 class="text">
                                             <p class="text">Een overzicht van beschikbare datasets vind je <a href="#">hier</a>.
                                             </p>
-
                                         </vl-drawer>
                                     </vl-drawers>
                                 </vl-column>
@@ -589,6 +613,7 @@
                 </vl-grid>
             </vl-layout>
         </vl-region>
+
 
     </div>
 </template>
@@ -622,7 +647,6 @@
     .text {
         font-size: 108% !important;
     }
-
 
 
 </style>
