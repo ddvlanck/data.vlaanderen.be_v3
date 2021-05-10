@@ -28,7 +28,7 @@
     "@govflanders/vl-ui-util": "^3.10.5",
     "@govflanders/vl-ui-vue-components": "^3.10.3-beta.1",
     "core-js": "^3.4.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "vue": "^2.6.10",
